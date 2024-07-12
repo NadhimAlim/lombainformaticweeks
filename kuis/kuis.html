@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuis - EduTech</title>
+    <!-- Link CSS jika diperlukan -->
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./kuis.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="box-navbar">
+          <div class="brand">
+            <h1>EduTech</h1>
+          </div>
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="navigation">
+            <ul>
+              <li><a href="index.html#hero">Beranda</a></li>
+              <li><a href="index.html#programles">Program Les</a></li>
+              <li><a href="index.html#daftar">Daftar</a></li>
+              <li><a href="index.html#testimoni">Testimoni</a></li>
+              <li><a href="quiz.html" class="wani">Kuis</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="quiz">
+      <div class="container">
+        <h2>Kuis EduTech</h2>
+        <!-- Tambahkan konten kuis di sini -->
+        <p>
+          Ini adalah halaman kuis EduTech. Tambahkan soal-soal dan interaksi
+          kuis sesuai kebutuhan.
+        </p>
+      </div>
+      <!-- Kuis Section -->
+      <section class="kuis" id="kuis">
+        <h2 class="animated-heading">Kuis - EduTech</h2>
+        <div class="kuis-container">
+          <div class="kuis-card">
+            <h3>Soal 1</h3>
+            <p>Apa ibukota Indonesia?</p>
+            <input type="radio" id="soal1a" name="soal1" value="Jakarta" />
+            <label for="soal1a">Jakarta</label><br />
+            <input type="radio" id="soal1b" name="soal1" value="Bandung" />
+            <label for="soal1b">Bandung</label><br />
+            <input type="radio" id="soal1c" name="soal1" value="Surabaya" />
+            <label for="soal1c">Surabaya</label>
+          </div>
+          <div class="kuis-card">
+            <h3>Soal 2</h3>
+            <p>Siapa presiden pertama Indonesia?</p>
+            <input type="radio" id="soal2a" name="soal2" value="Sukarno" />
+            <label for="soal2a">Sukarno</label><br />
+            <input type="radio" id="soal2b" name="soal2" value="Suharto" />
+            <label for="soal2b">Suharto</label><br />
+            <input type="radio" id="soal2c" name="soal2" value="Habibie" />
+            <label for="soal2c">Habibie</label>
+          </div>
+          <button class="btn" onclick="checkQuiz()">Submit</button>
+        </div>
+        <p id="quizResult"></p>
+      </section>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="./kuis.js"></script>
+  </body>
+</html>

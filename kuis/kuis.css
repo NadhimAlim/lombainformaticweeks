@@ -1,0 +1,54 @@
+/* Kuis Section */
+.kuis {
+    padding: 50px 0;
+    background: #f9f9f9;
+  }
+  
+  .kuis-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .kuis-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+  }
+  
+  .kuis-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .kuis-card p {
+    margin-bottom: 10px;
+  }
+  
+  .kuis-card input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .kuis .btn {
+    margin-top: 20px;
+    background: #48ff00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .kuis .btn:hover {
+    background: #36cc00;
+  }
+  
+  #quizResult {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
